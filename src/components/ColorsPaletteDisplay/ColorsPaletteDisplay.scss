@@ -1,0 +1,14 @@
+.colorsPalette {
+  background-color: lightgray;
+  width: 30%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 550px;
+  gap: 10px;
+  padding: 1%;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px -1px 33px -7px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 1px -1px 33px -7px rgba(66, 68, 90, 1);
+  box-shadow: 1px -1px 33px -7px rgba(66, 68, 90, 1);
+}
